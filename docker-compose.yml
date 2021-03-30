@@ -1,0 +1,23 @@
+version: '3'
+services:  
+  db1:
+    image: mysql
+    ports:
+      - "4040:80"
+    stdin_open: true
+    tty: true
+
+  db2:
+    image: mysql
+    ports:
+      - "4050:81"
+    stdin_open: true
+    tty: true
+
+  db3:
+    image: mysql
+    ports:
+      - "4060:82"
+    stdin_open: true
+    tty: true
+

@@ -9,5 +9,3 @@ RUN chmod 755 ./run.sh
 EXPOSE 4040
 
 RUN ./run.sh
-
-
