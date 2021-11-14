@@ -1,5 +1,5 @@
 ## data.sql:
-files contains schema of database and all nessecary creditial.
+files contains schema of database and all necessary creditial.
 
 ## dockerfile:
 instruction to create image of give name.
